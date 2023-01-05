@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="comments">
+        {{#each this}}
+    <div class="card post comment-box">
+        <div class="card-body post-body">
+            <div class="card-text comment-text">
+                {{comment_text}}
+            </div>
+            <div class="commentuser">
+            - {{user.username}}, {{format_date created}}
+            </div>
+        </div>
+    </div>
+        {{/each}}
+    </div>
+</div>

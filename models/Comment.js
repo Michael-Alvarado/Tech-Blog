@@ -15,7 +15,7 @@ Comment.init(
 			type: DataTypes.STRING,
 			allowNull: false,
 		},
-		created_at: {
+		created: {
 			type: DataTypes.DATE,
 			allowNull: false,
 			defaultValue: DataTypes.NOW,
